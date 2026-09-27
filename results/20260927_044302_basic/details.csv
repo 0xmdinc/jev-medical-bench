@@ -1,0 +1,549 @@
+﻿model,model_key,id,task,level,gold,pred,correct,within1,invalid,conf,latency,cost,raw
+Jev 1.13,jev,t01,triage,easy,4,4,True,True,False,1,3.488946899975417,1.8354e-05,"{""type"": ""score"", ""score"": 4, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0, ""2"": 0, ""3"": 0, ""4"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,t02,triage,easy,1,1,True,True,False,0.9,3.8601503999962006,1.9026e-05,"{""type"": ""score"", ""score"": 1.11, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0.89, ""2"": 0.11, ""3"": 0, ""4"": 0}, ""confidence"": 0.9}"
+Jev 1.13,jev,t03,triage,easy,0,1,False,True,False,0.77,3.2963108999829274,1.8354e-05,"{""type"": ""score"", ""score"": 0.78, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0.25, ""1"": 0.73, ""2"": 0.02, ""3"": 0, ""4"": 0}, ""confidence"": 0.77}"
+Jev 1.13,jev,t04,triage,easy,3,3,True,True,False,0.99,3.4885768000094686,1.8606e-05,"{""type"": ""score"", ""score"": 2.99, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0, ""2"": 0.01, ""3"": 0.99, ""4"": 0}, ""confidence"": 0.99}"
+Jev 1.13,jev,t05,triage,easy,1,1,True,True,False,0.78,0.3779870000144001,1.8228e-05,"{""type"": ""score"", ""score"": 1.26, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0.74, ""2"": 0.26, ""3"": 0, ""4"": 0}, ""confidence"": 0.78}"
+Jev 1.13,jev,t06,triage,easy,2,2,True,True,False,0.68,0.37183449999429286,1.8816e-05,"{""type"": ""score"", ""score"": 2.38, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0, ""2"": 0.62, ""3"": 0.38, ""4"": 0}, ""confidence"": 0.68}"
+Jev 1.13,jev,t07,triage,hard,3,3,True,True,False,0.9,0.37010929998359643,1.9236e-05,"{""type"": ""score"", ""score"": 2.89, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0, ""2"": 0.11, ""3"": 0.89, ""4"": 0}, ""confidence"": 0.9}"
+Jev 1.13,jev,t08,triage,hard,3,3,True,True,False,0.67,0.3748878999904264,1.9404e-05,"{""type"": ""score"", ""score"": 2.61, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0.01, ""2"": 0.36, ""3"": 0.63, ""4"": 0}, ""confidence"": 0.67}"
+Jev 1.13,jev,t09,triage,hard,3,2,False,True,False,0.56,0.37973829999100417,1.8774e-05,"{""type"": ""score"", ""score"": 2.28, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0.12, ""2"": 0.48, ""3"": 0.4, ""4"": 0}, ""confidence"": 0.56}"
+Jev 1.13,jev,t10,triage,hard,3,3,True,True,False,0.97,0.37866249997750856,1.9362e-05,"{""type"": ""score"", ""score"": 3.02, ""legend"": {""0"": ""ESI 5: non-urgent, needs no resources"", ""1"": ""ESI 4: less urgent, needs one resource"", ""2"": ""ESI 3: urgent, stable but needs two or more resources"", ""3"": ""ESI 2: emergent, high-risk situation, confused/lethargic, severe pain, or danger-zone vital signs"", ""4"": ""ESI 1: resuscitation, needs immediate life-saving intervention""}, ""probabilities"": {""0"": 0, ""1"": 0, ""2"": 0, ""3"": 0.97, ""4"": 0.03}, ""confidence"": 0.97}"
+Jev 1.13,jev,e01,ed_referral,easy,true,true,True,,False,0.99,0.37750609999056906,1.5078e-05,"{""type"": ""noul"", ""noul"": 0.99}"
+Jev 1.13,jev,e02,ed_referral,easy,false,false,True,,False,0.96,0.3758574000094086,1.5288e-05,"{""type"": ""noul"", ""noul"": 0.04}"
+Jev 1.13,jev,e03,ed_referral,easy,true,true,True,,False,0.98,0.37448280001990497,1.5288e-05,"{""type"": ""noul"", ""noul"": 0.98}"
+Jev 1.13,jev,e04,ed_referral,easy,false,false,True,,False,0.95,0.37349719999474473,1.5162e-05,"{""type"": ""noul"", ""noul"": 0.05}"
+Jev 1.13,jev,e05,ed_referral,easy,false,false,True,,False,0.97,0.372423599998001,1.47e-05,"{""type"": ""noul"", ""noul"": 0.03}"
+Jev 1.13,jev,e06,ed_referral,easy,true,true,True,,False,0.98,0.3733498000074178,1.4784e-05,"{""type"": ""noul"", ""noul"": 0.98}"
+Jev 1.13,jev,e07,ed_referral,hard,true,true,True,,False,0.96,0.5627462999837007,1.5918e-05,"{""type"": ""noul"", ""noul"": 0.96}"
+Jev 1.13,jev,e08,ed_referral,hard,true,true,True,,False,0.91,0.3757329999934882,1.575e-05,"{""type"": ""noul"", ""noul"": 0.91}"
+Jev 1.13,jev,e09,ed_referral,hard,false,false,True,,False,0.9299999999999999,0.37528830001247115,1.596e-05,"{""type"": ""noul"", ""noul"": 0.07}"
+Jev 1.13,jev,e10,ed_referral,hard,true,true,True,,False,0.92,0.37463669999851845,1.5666e-05,"{""type"": ""noul"", ""noul"": 0.92}"
+Jev 1.13,jev,s01,specialty,easy,cardiology,cardiology,True,,False,1,0.3752385999832768,2.0328e-05,"{""type"": ""choice"", ""choice"": ""cardiology"", ""probabilities"": {""endocrinology"": 0, ""nephrology"": 0, ""cardiology"": 1, ""rheumatology"": 0, ""pulmonology"": 0, ""psychiatry"": 0, ""gastroenterology"": 0, ""dermatology"": 0, ""neurology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s02,specialty,easy,dermatology,dermatology,True,,False,1,0.37475040002027526,2.037e-05,"{""type"": ""choice"", ""choice"": ""dermatology"", ""probabilities"": {""psychiatry"": 0, ""endocrinology"": 0, ""dermatology"": 1, ""gastroenterology"": 0, ""neurology"": 0, ""pulmonology"": 0, ""cardiology"": 0, ""nephrology"": 0, ""rheumatology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s03,specialty,easy,endocrinology,endocrinology,True,,False,1,0.37498960000812076,2.0412e-05,"{""type"": ""choice"", ""choice"": ""endocrinology"", ""probabilities"": {""nephrology"": 0, ""dermatology"": 0, ""gastroenterology"": 0, ""psychiatry"": 0, ""endocrinology"": 1, ""neurology"": 0, ""pulmonology"": 0, ""rheumatology"": 0, ""cardiology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s04,specialty,easy,psychiatry,psychiatry,True,,False,1,0.37464200000977144,2.0538e-05,"{""type"": ""choice"", ""choice"": ""psychiatry"", ""probabilities"": {""cardiology"": 0, ""nephrology"": 0, ""gastroenterology"": 0, ""dermatology"": 0, ""psychiatry"": 1, ""pulmonology"": 0, ""neurology"": 0, ""endocrinology"": 0, ""rheumatology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s05,specialty,easy,gastroenterology,gastroenterology,True,,False,1,0.3714769000071101,2.0244e-05,"{""type"": ""choice"", ""choice"": ""gastroenterology"", ""probabilities"": {""dermatology"": 0, ""pulmonology"": 0, ""neurology"": 0, ""cardiology"": 0, ""rheumatology"": 0, ""psychiatry"": 0, ""gastroenterology"": 1, ""nephrology"": 0, ""endocrinology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s06,specialty,easy,neurology,neurology,True,,False,1,0.3706685999932233,2.0286e-05,"{""type"": ""choice"", ""choice"": ""neurology"", ""probabilities"": {""nephrology"": 0, ""endocrinology"": 0, ""psychiatry"": 0, ""gastroenterology"": 0, ""dermatology"": 0, ""pulmonology"": 0, ""neurology"": 1, ""rheumatology"": 0, ""cardiology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s07,specialty,hard,rheumatology,rheumatology,True,,False,1,0.37025169999105856,2.1252e-05,"{""type"": ""choice"", ""choice"": ""rheumatology"", ""probabilities"": {""neurology"": 0, ""endocrinology"": 0, ""rheumatology"": 1, ""psychiatry"": 0, ""gastroenterology"": 0, ""cardiology"": 0, ""pulmonology"": 0, ""nephrology"": 0, ""dermatology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s08,specialty,hard,pulmonology,pulmonology,True,,False,1,0.5553161000134423,2.1294e-05,"{""type"": ""choice"", ""choice"": ""pulmonology"", ""probabilities"": {""psychiatry"": 0, ""endocrinology"": 0, ""neurology"": 0, ""gastroenterology"": 0, ""dermatology"": 0, ""cardiology"": 0, ""nephrology"": 0, ""pulmonology"": 1, ""rheumatology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s09,specialty,hard,endocrinology,endocrinology,True,,False,1,0.37117609998676926,2.1714e-05,"{""type"": ""choice"", ""choice"": ""endocrinology"", ""probabilities"": {""rheumatology"": 0, ""cardiology"": 0, ""nephrology"": 0, ""dermatology"": 0, ""pulmonology"": 0, ""endocrinology"": 1, ""neurology"": 0, ""psychiatry"": 0, ""gastroenterology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,s10,specialty,hard,nephrology,nephrology,True,,False,1,0.3712443000113126,2.1798e-05,"{""type"": ""choice"", ""choice"": ""nephrology"", ""probabilities"": {""pulmonology"": 0, ""neurology"": 0, ""cardiology"": 0, ""nephrology"": 1, ""rheumatology"": 0, ""psychiatry"": 0, ""dermatology"": 0, ""gastroenterology"": 0, ""endocrinology"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,r01,rx_safety,easy,true,true,True,,False,0.98,0.3735638000071049,1.5372e-05,"{""type"": ""noul"", ""noul"": 0.98}"
+Jev 1.13,jev,r02,rx_safety,easy,false,false,True,,False,0.96,0.37648589999298565,1.5246e-05,"{""type"": ""noul"", ""noul"": 0.04}"
+Jev 1.13,jev,r03,rx_safety,easy,true,true,True,,False,0.99,0.37578259999281727,1.47e-05,"{""type"": ""noul"", ""noul"": 0.99}"
+Jev 1.13,jev,r04,rx_safety,easy,false,false,True,,False,0.96,0.5633135999960359,1.4784e-05,"{""type"": ""noul"", ""noul"": 0.04}"
+Jev 1.13,jev,r05,rx_safety,hard,true,true,True,,False,0.92,0.376413699996192,1.5582e-05,"{""type"": ""noul"", ""noul"": 0.92}"
+Jev 1.13,jev,r06,rx_safety,hard,true,true,True,,False,0.83,0.37356599999475293,1.6044e-05,"{""type"": ""noul"", ""noul"": 0.83}"
+Jev 1.13,jev,r07,rx_safety,hard,true,true,True,,False,0.94,0.37302859997726046,1.5414e-05,"{""type"": ""noul"", ""noul"": 0.94}"
+Jev 1.13,jev,r08,rx_safety,hard,true,true,True,,False,0.97,0.3726934999867808,1.512e-05,"{""type"": ""noul"", ""noul"": 0.97}"
+Jev 1.13,jev,r09,rx_safety,hard,false,false,True,,False,0.83,0.37207630000193603,1.5708e-05,"{""type"": ""noul"", ""noul"": 0.17}"
+Jev 1.13,jev,r10,rx_safety,hard,false,false,True,,False,0.91,0.37195420000352897,1.5414e-05,"{""type"": ""noul"", ""noul"": 0.09}"
+Jev 1.13,jev,d01,diagnosis,easy,C,C,True,,False,1,0.37143090000608936,1.6464e-05,"{""type"": ""choice"", ""choice"": ""C"", ""probabilities"": {""A"": 0, ""D"": 0, ""B"": 0, ""C"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d02,diagnosis,easy,A,A,True,,False,1,0.37373520000255667,1.6422e-05,"{""type"": ""choice"", ""choice"": ""A"", ""probabilities"": {""B"": 0, ""D"": 0, ""C"": 0, ""A"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d03,diagnosis,easy,D,D,True,,False,1,0.3731267000257503,1.6338e-05,"{""type"": ""choice"", ""choice"": ""D"", ""probabilities"": {""C"": 0, ""A"": 0, ""B"": 0, ""D"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d04,diagnosis,easy,B,B,True,,False,1,0.37690350000048056,1.575e-05,"{""type"": ""choice"", ""choice"": ""B"", ""probabilities"": {""A"": 0, ""D"": 0, ""C"": 0, ""B"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d05,diagnosis,easy,B,B,True,,False,1,0.37592980000772513,1.617e-05,"{""type"": ""choice"", ""choice"": ""B"", ""probabilities"": {""A"": 0, ""D"": 0, ""B"": 1, ""C"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,d06,diagnosis,hard,C,C,True,,False,1,0.605059399997117,1.6674e-05,"{""type"": ""choice"", ""choice"": ""C"", ""probabilities"": {""B"": 0, ""C"": 1, ""A"": 0, ""D"": 0}, ""confidence"": 1}"
+Jev 1.13,jev,d07,diagnosis,hard,A,A,True,,False,0.97,0.41542539998772554,1.6548e-05,"{""type"": ""choice"", ""choice"": ""A"", ""probabilities"": {""C"": 0, ""B"": 0.01, ""D"": 0.01, ""A"": 0.98}, ""confidence"": 0.97}"
+Jev 1.13,jev,d08,diagnosis,hard,D,D,True,,False,1,0.41758759997901507,1.6968e-05,"{""type"": ""choice"", ""choice"": ""D"", ""probabilities"": {""B"": 0, ""C"": 0, ""A"": 0, ""D"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d09,diagnosis,hard,B,B,True,,False,1,0.41645940000307746,1.6674e-05,"{""type"": ""choice"", ""choice"": ""B"", ""probabilities"": {""C"": 0, ""D"": 0, ""A"": 0, ""B"": 1}, ""confidence"": 1}"
+Jev 1.13,jev,d10,diagnosis,hard,A,A,True,,False,1,0.4177789999812376,1.638e-05,"{""type"": ""choice"", ""choice"": ""A"", ""probabilities"": {""A"": 1, ""B"": 0, ""D"": 0, ""C"": 0}, ""confidence"": 1}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t01,triage,easy,4,4,True,True,False,,4.158280999981798,,"{""answer"": ""4""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t02,triage,easy,1,1,True,True,False,,4.692219599994132,,"{
+""answer"": 1
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t03,triage,easy,0,1,False,True,False,,5.165475699992385,,"{
+""answer"": 1
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t04,triage,easy,3,3,True,True,False,,5.164772099989932,,"{
+""answer"": 3
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t05,triage,easy,1,1,True,True,False,,4.83741460001329,,"{""answer"": 1}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t06,triage,easy,2,2,True,True,False,,5.8735561999783386,,"{
+""answer"": 2
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t07,triage,hard,3,3,True,True,False,,4.803409299987834,,"{""answer"": ""3""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t08,triage,hard,3,3,True,True,False,,5.9337329999834765,,"{
+""answer"": 3
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t09,triage,hard,3,2,False,True,False,,3.2669300000125077,,"{
+""answer"": 2
+}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,t10,triage,hard,3,3,True,True,False,,2.2925683000066783,,"{""answer"": ""3""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e01,ed_referral,easy,true,true,True,,False,,2.1993253999971785,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e02,ed_referral,easy,false,false,True,,False,,2.1249934999796096,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e03,ed_referral,easy,true,true,True,,False,,2.252815100015141,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e04,ed_referral,easy,false,false,True,,False,,2.251550499990117,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e05,ed_referral,easy,false,false,True,,False,,2.4776809999893885,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e06,ed_referral,easy,true,true,True,,False,,2.738832700008061,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e07,ed_referral,hard,true,true,True,,False,,2.671698899997864,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e08,ed_referral,hard,true,true,True,,False,,2.6703160000033677,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e09,ed_referral,hard,false,false,True,,False,,3.5140622000035364,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,e10,ed_referral,hard,true,true,True,,False,,4.049870899994858,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s01,specialty,easy,cardiology,cardiology,True,,False,,4.811633000004804,,"{""answer"": ""cardiology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s02,specialty,easy,dermatology,dermatology,True,,False,,4.881705300009344,,"{""answer"": ""dermatology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s03,specialty,easy,endocrinology,endocrinology,True,,False,,4.092837200005306,,"{""answer"": ""endocrinology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s04,specialty,easy,psychiatry,psychiatry,True,,False,,2.9698926999990363,,"{""answer"": ""psychiatry""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s05,specialty,easy,gastroenterology,gastroenterology,True,,False,,1.6113743000023533,,"{""answer"": ""gastroenterology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s06,specialty,easy,neurology,neurology,True,,False,,1.5405050000117626,,"{""answer"": ""neurology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s07,specialty,hard,rheumatology,rheumatology,True,,False,,1.413223299983656,,"{""answer"": ""rheumatology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s08,specialty,hard,pulmonology,pulmonology,True,,False,,1.2793699000030756,,"{""answer"": ""pulmonology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s09,specialty,hard,endocrinology,endocrinology,True,,False,,1.139792900008615,,"{""answer"": ""endocrinology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,s10,specialty,hard,nephrology,nephrology,True,,False,,1.1684164000034798,,"{""answer"": ""nephrology""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r01,rx_safety,easy,true,true,True,,False,,0.5141116999730002,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r02,rx_safety,easy,false,false,True,,False,,0.5125047999899834,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r03,rx_safety,easy,true,true,True,,False,,0.8820647999818902,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r04,rx_safety,easy,false,false,True,,False,,0.8856226000061724,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r05,rx_safety,hard,true,true,True,,False,,0.8851691000163555,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r06,rx_safety,hard,true,true,True,,False,,0.8842021999880672,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r07,rx_safety,hard,true,true,True,,False,,0.9703716000076383,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r08,rx_safety,hard,true,true,True,,False,,0.9676795999985188,,"{""answer"": ""true""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r09,rx_safety,hard,false,false,True,,False,,0.9675638999906369,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,r10,rx_safety,hard,false,false,True,,False,,0.9668145999894477,,"{""answer"": ""false""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d01,diagnosis,easy,C,C,True,,False,,0.7240035999857355,,"{""answer"": ""C""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d02,diagnosis,easy,A,A,True,,False,,0.7228655999933835,,"{""answer"": ""A""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d03,diagnosis,easy,D,D,True,,False,,0.7229865999834146,,"{""answer"": ""D""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d04,diagnosis,easy,B,B,True,,False,,0.7219512000156101,,"{""answer"": ""B""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d05,diagnosis,easy,B,B,True,,False,,0.8437123999756295,,"{""answer"": ""B""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d06,diagnosis,hard,C,C,True,,False,,0.8507306999817956,,"{""answer"": ""C""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d07,diagnosis,hard,A,A,True,,False,,0.8493944000219926,,"{""answer"": ""A""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d08,diagnosis,hard,D,D,True,,False,,0.8501388999866322,,"{""answer"": ""D""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d09,diagnosis,hard,B,B,True,,False,,0.6032827000017278,,"{""answer"": ""B""}"
+Qwen3.8-27B 4-bit (RTX 4090),qwen,d10,diagnosis,hard,A,A,True,,False,,0.598757800005842,,"{""answer"": ""A""}"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t01,triage,easy,4,4,True,True,False,,23.358975500013912,,"2 is for patients who are stable enough to wait a few minutes but are at risk of decompensation. This patient is already decompensating and unresponsive.
+
+3.  **Conclusion:**
+    *   The patient meets the criteria for ESI Level 1: ""Resuscitation, needs immediate life-saving intervention.""
+
+ANSWER: 4"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t02,triage,easy,1,1,True,True,False,,98.39528650001739,,"ng is not a resource.
+    If she has a sprain, she goes home.
+    So, only 1 resource.
+
+    Therefore, the correct level is ESI 4.
+
+    **Mapping to keys:**
+    - 0: ESI 5
+    - 1: ESI 4
+    - 2: ESI 3
+    - 3: ESI 2
+    - 4: ESI 1
+
+    The answer is ESI 4, which corresponds to key **1**.
+
+ANSWER: 1"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t03,triage,easy,0,0,True,True,False,,120.8148129999754,,"tic interventions other than the prescription itself. If the triage nurse believes the doctor *might* order a lab, they might triage as 4. But based on the data provided (asymptomatic, stable vitals), the *expected* resource count is 0.
+
+    Therefore, the correct classification is ESI 5.
+
+ANSWER: 0"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t04,triage,easy,3,3,True,True,False,,57.669234400003916,,"pected ACS), we stop at ESI 2.
+
+**Conclusion:**
+The patient is not in immediate need of resuscitation (ESI 1), but he presents with a high-risk clinical scenario (suspected acute coronary syndrome) that carries a significant risk of rapid decompensation. Therefore, he is triaged as ESI 2.
+
+ANSWER: 3"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t05,triage,easy,1,1,True,True,False,,101.47055290002027,,"ble check if ""clean"" implies no other resources. Yes, clean wounds typically don't need debridement (which might be complex) or antibiotics.
+    *   So, 1 resource.
+
+    *   **Conclusion:** The patient is stable (not ESI 1 or 2). She needs one resource (suturing). Therefore, she is ESI 4.
+
+ANSWER: 1"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t06,triage,easy,2,2,True,True,False,,71.97804959997302,," (6/10), and is alert.
+    *   Therefore, she falls into ESI 3 (Urgent, stable, needs 2+ resources).
+
+**Conclusion:**
+The patient is stable (not ESI 1 or 2 based on vitals/pain severity). She requires multiple resources (labs + imaging + likely IV meds). This fits the definition of ESI 3.
+
+ANSWER: 2"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t07,triage,hard,3,3,True,True,False,,38.73750970000401,,"d up to ESI 2 regardless of the resource count.
+
+**Conclusion:**
+The patient presents with signs of hemodynamic instability (tachycardia, hypotension) in the context of a potential life-threatening condition (ectopic pregnancy). This fits the criteria for ESI Level 2 (Emergent/High-risk).
+
+ANSWER: 3"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t08,triage,hard,3,3,True,True,False,,53.89083659998141,,"ttitis or peritonsillar abscess). This constitutes a ""high-risk situation"" and ""severe pain,"" placing him in ESI Level 2. He does not require immediate resuscitation (ESI 1) as his airway is currently patent and oxygenation is stable, but he cannot wait in a standard urgent queue (ESI 3).
+
+ANSWER: 3"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t09,triage,hard,3,3,True,True,False,,43.125525800016476,,"hich would make her ESI 3. However, the high-risk status overrides the resource count.
+
+**Conclusion:**
+The patient is stable (GCS 15, normal vitals) but is in a high-risk situation due to the combination of head trauma and anticoagulation therapy. This fits the definition of ESI Level 2.
+
+ANSWER: 3"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,t10,triage,hard,3,3,True,True,False,,41.40417090000119,," 4, or 5. ESI 2 takes precedence over lower acuity levels when high-risk vital signs are present.
+
+**Conclusion:**
+The patient has an SpO2 of 89% on room air, which is a danger zone vital sign indicating potential respiratory failure. This automatically assigns the patient to ESI Level 2.
+
+ANSWER: 3"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e01,ed_referral,easy,true,true,True,,False,,11.803592000011122,,"neurological damage or death. Immediate emergency department evaluation is required for rapid imaging (CT/MRI), assessment of eligibility for reperfusion therapy, and stabilization.
+
+Therefore, this is a time-critical, potentially life-threatening condition requiring immediate ED care.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e02,ed_referral,easy,false,false,True,,False,,36.10291299998062,,"care (rest, fluids, over-the-counter symptom relief) and routine follow-up if symptoms persist or worsen.
+
+4.  **Conclusion**:
+    *   The condition is not time-critical.
+    *   It is not potentially life-threatening.
+    *   It is safe for routine outpatient management or self-care.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e03,ed_referral,easy,true,true,True,,False,,20.635514900001,,"ion of intramuscular epinephrine and close monitoring in a setting equipped to manage airway compromise and hemodynamic instability. Routine outpatient care is unsafe because the condition can deteriorate rapidly.
+
+Therefore, this patient requires emergency department evaluation today.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e04,ed_referral,easy,false,false,True,,False,,32.25375809997786,,"   Sending this patient to the ED would result in unnecessary resource utilization and delay in appropriate long-term management.
+
+**Conclusion**: The patient does not have a time-critical or potentially life-threatening condition. Routine outpatient care is the appropriate next step.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e05,ed_referral,easy,false,false,True,,False,,24.650320300017484,,"stemic signs, this is a non-urgent presentation. It is safe to manage via routine outpatient care (dermatology or primary care) or self-care with over-the-counter treatments initially. There is no plausible time-critical or life-threatening condition based on the provided information.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e06,ed_referral,easy,true,true,True,,False,,15.101927300012903,,"stabilization (likely IV fluids and blood transfusion), and urgent endoscopy to identify and treat the source of bleeding. Delaying care for routine outpatient management could lead to shock, organ failure, or death.
+
+Therefore, this patient needs emergency department evaluation today.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e07,ed_referral,hard,true,true,True,,False,,23.948011100001168,,"nt, this patient cannot be managed with routine outpatient care or simple painkillers. She requires immediate neuroimaging (typically a non-contrast CT head) and likely a lumbar puncture if the CT is negative, to rule out SAH. Therefore, she needs emergency department evaluation today.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e08,ed_referral,hard,true,true,True,,False,,23.18722130000242,,"evaluation (such as a D-dimer test, CT pulmonary angiogram, or ultrasound) and potential anticoagulation therapy. This cannot be safely managed via routine outpatient care or self-care due to the risk of sudden deterioration.
+
+Therefore, she needs emergency department evaluation today.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e09,ed_referral,hard,false,false,True,,False,,45.95005539999693,,"with a referral to primary care or neurology for routine follow-up.
+
+**Conclusion:**
+The patient does not have signs of a medical emergency. The symptoms are chronic, stable, and consistent with a benign primary headache disorder. Routine outpatient management is safe and appropriate.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,e10,ed_referral,hard,true,true,True,,False,,21.280575099983253,,"sion**: Routine outpatient care is unsafe because it delays the necessary immediate assessment, blood cultures, and potential antibiotic treatment. The patient requires immediate evaluation in an Emergency Department.
+
+Therefore, the patient needs emergency department evaluation today.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s01,specialty,easy,cardiology,cardiology,True,,False,,24.21705470001325,,"ngina.
+- **Other specialties**: Neurology, Endocrinology, Dermatology, Psychiatry, Rheumatology, and Nephrology are not the primary fields for managing exertional chest pain suggestive of ischemia.
+
+Therefore, the most appropriate specialist clinic for this patient is Cardiology.
+
+ANSWER: cardiology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s02,specialty,easy,dermatology,dermatology,True,,False,,20.8021436999843,,"ain, stiffness, or swelling. Therefore, the initial referral is for the skin condition itself.
+    *   Other specialties (Cardiology, Neurology, etc.) are not relevant to skin plaques.
+
+Therefore, the appropriate specialist clinic for managing this skin condition is Dermatology.
+
+ANSWER: dermatology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s03,specialty,easy,endocrinology,endocrinology,True,,False,,15.488802700012457,,"f advanced kidney disease (like high creatinine or proteinuria not mentioned here), the primary issue described is the uncontrolled diabetes itself. Similarly, cardiology would be relevant for heart issues, but the primary referral for the diabetes management is endocrinology.
+
+ANSWER: endocrinology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s04,specialty,easy,psychiatry,psychiatry,True,,False,,22.604436599998735,,"der.
+
+3.  **Specialist Selection**:
+    *   The management of depression, including psychotherapy and pharmacotherapy, as well as the assessment of suicide risk, falls under the domain of mental health specialists.
+    *   Therefore, the appropriate referral is to a psychiatrist.
+
+ANSWER: psychiatry"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s05,specialty,easy,gastroenterology,gastroenterology,True,,False,,25.20205779999378,,"s incorrect because there is no indication of nerve damage or brain pathology causing the swallowing difficulty (e.g., no mention of weakness, slurred speech, or other neurological signs).
+
+The appropriate referral is to the specialist who handles the esophagus and stomach.
+
+ANSWER: gastroenterology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s06,specialty,easy,neurology,neurology,True,,False,,18.31348829998751,,"n diagnosing and managing complex headache disorders.
+    *   Other specialties (Cardiology, Gastroenterology, etc.) do not primarily manage primary headache disorders.
+
+3.  **Conclusion**: The appropriate referral is to a neurologist for the evaluation and management of migraine.
+
+ANSWER: neurology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s07,specialty,hard,rheumatology,rheumatology,True,,False,,26.819771999988006,,"imary specialists for diagnosing and managing SLE, coordinating care for multi-system involvement (joints, skin, kidneys, etc.).
+
+Therefore, the most appropriate initial referral for the overall diagnosis and management of this suspected autoimmune condition is to Rheumatology.
+
+ANSWER: rheumatology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s08,specialty,hard,pulmonology,pulmonology,True,,False,,17.909429200022714,," pathology described is in the lungs.
+    *   **Pulmonology**: This is the specialty dedicated to the diagnosis and management of diseases affecting the lungs and airways, including ILD, fibrosis, and chronic cough.
+
+Therefore, the patient requires referral to a lung specialist.
+
+ANSWER: pulmonology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s09,specialty,hard,endocrinology,endocrinology,True,,False,,13.39622260001488,,"*: This specialty deals with the endocrine system, which includes the thyroid gland. Hyperthyroidism is a hormonal disorder managed by endocrinologists.
+
+Therefore, the patient should be referred to the endocrinology clinic for diagnosis and management of the thyroid disorder.
+
+ANSWER: endocrinology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,s10,specialty,hard,nephrology,nephrology,True,,False,,14.710487600008491,,"Conclusion:**
+    The patient is presenting with clear signs of progressive kidney disease (CKD) with significant proteinuria. The most appropriate specialist to manage kidney function, investigate the cause of the proteinuria, and manage the progression of CKD is a nephrologist.
+
+ANSWER: nephrology"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r01,rx_safety,easy,true,true,True,,False,,3.2827201999898534,," is a severe, life-threatening allergic reaction. Prescribing a drug from the same class as the allergen (or a closely related class with high cross-reactivity risk) to a patient with a history of anaphylaxis is a strict contraindication. Therefore, the proposed prescription is unsafe.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r02,rx_safety,easy,false,false,True,,False,,16.057022900000447,,"indications (no allergy, no relevant comorbidities).
+    *   There are no dangerous interactions (no other meds).
+    *   The dose is correct for an adult.
+    *   The drug is appropriate for the condition.
+
+Therefore, the prescription is safe and acceptable for this specific patient.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r03,rx_safety,easy,true,true,True,,False,,4.34332600000198,,"weeks pregnant. Prescribing isotretinoin to a pregnant woman is strictly contraindicated. The risk of fetal harm is high, and the drug must be discontinued immediately in any patient who becomes pregnant while taking it. Therefore, this prescription is unsafe for this specific patient.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r04,rx_safety,easy,false,false,True,,False,,20.108961699996144,,"rous interactions or contraindications in a healthy 45-year-old woman with isolated hypertension.
+
+**Conclusion**: The prescription is appropriate, the dose is standard, and there are no identified contraindications or dangerous interactions. Therefore, the prescription is not unsafe.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r05,rx_safety,hard,true,true,True,,False,,40.9103013999993,,"a CYP3A4 substrate with a narrow therapeutic index regarding toxicity (simvastatin), and this combination is generally contraindicated or requires specific management (stopping the statin), the prescription as written (implying concurrent use without modification) is considered unsafe.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r06,rx_safety,hard,true,true,True,,False,,32.942918500019005,,"ically preferred for UTIs in patients taking methotrexate.
+
+5.  **Conclusion**: The proposed prescription creates a dangerous drug interaction that poses a significant risk of severe toxicity (particularly bone marrow suppression) to this patient. Therefore, the prescription is unsafe.
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r07,rx_safety,hard,true,true,True,,False,,41.47380720000365,,"al daily).
+    *   Since the eGFR is < 30, metformin should not be initiated or continued. It is contraindicated due to the high risk of lactic acidosis.
+
+4.  **Conclusion**: The prescription is unsafe because the drug is contraindicated in patients with an eGFR below 30 mL/min/1.73m².
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r08,rx_safety,hard,true,true,True,,False,,42.78826470000786,,"Step 5: Determine the answer based on the allowed keys.**
+The question asks if the proposed prescription is unsafe. Since this combination poses a high risk of a dangerous, potentially fatal interaction (Serotonin Syndrome), the prescription is unsafe.
+
+Therefore, the answer is ""true"".
+
+ANSWER: true"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r09,rx_safety,hard,false,false,True,,False,,45.68884889999754,,"on of paracetamol 1 g three times daily (3 g/day) is a standard, safe, and appropriate treatment for knee osteoarthritis in a 72-year-old woman with normal liver function who is on anticoagulation therapy. It avoids the dangerous interactions and bleeding risks associated with NSAIDs.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,r10,rx_safety,hard,false,false,True,,False,,35.20024869998451,,"imit for this eGFR range (45–59). It does not exceed the limit.
+    *   Therefore, the dose is within the safe therapeutic range for this specific level of renal impairment. It is not a contraindication, nor is it an overdose.
+
+Conclusion: The prescription is acceptable as prescribed.
+
+ANSWER: false"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d01,diagnosis,easy,C,C,True,,False,,29.46026520000305,,"sudden onset sharp chest pain and dyspnea. X-ray would show a visible pleural line with absent lung markings peripherally, not consolidation.
+
+3.  **Conclusion**: The clinical picture strongly points to an acute bacterial infection of the lung parenchyma acquired in the community setting.
+
+ANSWER: C"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d02,diagnosis,easy,A,A,True,,False,,33.438461899990216,,"itrite test strongly points toward a typical bacterial etiology (like *E. coli*) rather than an STI.
+
+**Conclusion**: The combination of lower urinary tract symptoms, positive nitrites, and the absence of systemic or upper tract signs is the classic presentation of uncomplicated cystitis.
+
+ANSWER: A"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d03,diagnosis,easy,D,D,True,,False,,25.143156799982535,,"tion and percussion are normal.
+*   **D: Spontaneous pneumothorax**: Fits the demographic (tall, thin young male), the sudden onset of symptoms, and the specific physical signs of reduced breath sounds and hyper-resonance.
+
+Therefore, the most likely diagnosis is spontaneous pneumothorax.
+
+ANSWER: D"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d04,diagnosis,easy,B,B,True,,False,,30.90652799999225,,"ause the intense inflammatory signs (redness, heat) seen here, nor is it triggered by dietary intake.
+
+**Conclusion**: The combination of acute onset, specific location (first MTP joint), severe pain, and the classic dietary trigger (beer and seafood) makes gout the most likely diagnosis.
+
+ANSWER: B"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d05,diagnosis,easy,B,B,True,,False,,32.57926180001232,,"nd clear rhinorrhea. It does not cause fever, tonsillar exudates, or tender lymph nodes.
+
+**3. Conclusion:**
+The combination of fever, tonsillar exudates, tender anterior cervical lymphadenopathy, and the specific absence of cough is the classic presentation for Streptococcal pharyngitis.
+
+ANSWER: B"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d06,diagnosis,hard,C,C,True,,False,,33.575053799984744,,"ms with specific physical signs (dry skin, puffy face, slow reflexes, weight gain, constipation) is the classic presentation of hypothyroidism. It is crucial to rule out hypothyroidism before diagnosing primary depression, as treating the thyroid disorder often resolves the mood symptoms.
+
+ANSWER: C"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d07,diagnosis,hard,A,A,True,,False,,39.638040099991485,,"r the metabolic/nutritional etiology of Wernicke's over a unilateral or focal vascular event.
+
+4.  **Conclusion**: The presence of the classic triad (confusion, ataxia, ophthalmoplegia) in a patient with chronic alcohol use is diagnostic for Wernicke encephalopathy until proven otherwise.
+
+ANSWER: A"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d08,diagnosis,hard,D,D,True,,False,,26.200819699995918,,"r quadrant pain and does not cause ST elevation.
+
+6.  **Conclusion**: The combination of epigastric pain/nausea (referred pain) and specific ST elevation in the inferior leads (II, III, aVF) in a patient with cardiovascular risk factors is diagnostic for an inferior myocardial infarction.
+
+ANSWER: D"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d09,diagnosis,hard,B,B,True,,False,,30.50246029999107,,"rasound shows *no* intrauterine pregnancy, this diagnosis is incorrect.
+
+**Conclusion**: The combination of a positive pregnancy test, abdominal pain, vaginal bleeding, and an ultrasound showing no intrauterine pregnancy with free fluid is the classic presentation of an ectopic pregnancy.
+
+ANSWER: B"
+Qwen3.8-27B 4-bit (RTX 4090) +think,qwen_think,d10,diagnosis,hard,A,A,True,,False,,26.701166999991983,,"tion.
+
+**Conclusion**: The combination of age >50, new headache, jaw claudication, scalp tenderness, and markedly elevated ESR is the classic clinical picture for Giant Cell Arteritis (also known as Temporal Arteritis). This is a medical emergency due to the risk of permanent vision loss.
+
+ANSWER: A"
+DeepSeek V4 Pro,ds,t01,triage,easy,4,4,True,True,False,,6.174358799995389,0.00021054,"{""answer"": ""4""}"
+DeepSeek V4 Pro,ds,t02,triage,easy,1,1,True,True,False,,4.517541299981531,2.8623e-05,"{""answer"": ""1""}"
+DeepSeek V4 Pro,ds,t03,triage,easy,0,0,True,True,False,,4.112129099987214,7.76048e-05,"{""answer"": ""0""}"
+DeepSeek V4 Pro,ds,t04,triage,easy,3,3,True,True,False,,4.11274609999964,7.89906e-05,"{""answer"": ""3""}"
+DeepSeek V4 Pro,ds,t05,triage,easy,1,1,True,True,False,,1.2923810000065714,7.725835e-05,"{""answer"": ""1""}"
+DeepSeek V4 Pro,ds,t06,triage,easy,2,2,True,True,False,,1.2908316999964882,8.03764e-05,"{""answer"": ""2""}"
+DeepSeek V4 Pro,ds,t07,triage,hard,3,3,True,True,False,,1.079282599996077,8.45338e-05,"{""answer"": ""3""}"
+DeepSeek V4 Pro,ds,t08,triage,hard,3,3,True,True,False,,1.6367833000258543,3.2683e-05,"{""answer"": ""3""}"
+DeepSeek V4 Pro,ds,t09,triage,hard,3,3,True,True,False,,1.6352868000103626,3.1349e-05,"{""answer"": ""3""}"
+DeepSeek V4 Pro,ds,t10,triage,hard,3,3,True,True,False,,1.0043635999900289,8.557315e-05,"{""answer"": ""3""}"
+DeepSeek V4 Pro,ds,e01,ed_referral,easy,true,true,True,,False,,1.774454099999275,1.9836e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,e02,ed_referral,easy,false,false,True,,False,,1.7840674000035506,1.8705e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,e03,ed_referral,easy,true,true,True,,False,,0.9064584999869112,0.00024186,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,e04,ed_referral,easy,false,false,True,,False,,1.3442737000004854,1.8995e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,e05,ed_referral,easy,false,false,True,,False,,3.0859558999945875,0.000118668,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,e06,ed_referral,easy,true,true,True,,False,,1.4629292000026908,4.469205e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,e07,ed_referral,hard,true,true,True,,False,,1.0265985000005458,5.40462e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,e08,ed_referral,hard,true,true,True,,False,,1.6944975999940652,2.03e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,e09,ed_referral,hard,false,false,True,,False,,1.622096800012514,2.2388e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,e10,ed_referral,hard,true,true,True,,False,,1.2348675999965053,5.19675e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,s01,specialty,easy,cardiology,cardiology,True,,False,,0.9538387999928091,7.20616e-05,"{""answer"": ""cardiology""}"
+DeepSeek V4 Pro,ds,s02,specialty,easy,dermatology,dermatology,True,,False,,1.2341049000096973,2.6825e-05,"{""answer"": ""dermatology""}"
+DeepSeek V4 Pro,ds,s03,specialty,easy,endocrinology,endocrinology,True,,False,,1.0365802999876905,7.34474e-05,"{""answer"": ""endocrinology""}"
+DeepSeek V4 Pro,ds,s04,specialty,easy,psychiatry,psychiatry,True,,False,,1.0359722999855876,7.41403e-05,"{""answer"": ""psychiatry""}"
+DeepSeek V4 Pro,ds,s05,specialty,easy,gastroenterology,gastroenterology,True,,False,,2.521801900002174,0.00036192,"{""answer"": ""gastroenterology""}"
+DeepSeek V4 Pro,ds,s06,specialty,easy,neurology,neurology,True,,False,,1.10966279997956,7.171515e-05,"{""answer"": ""neurology""}"
+DeepSeek V4 Pro,ds,s07,specialty,hard,rheumatology,rheumatology,True,,False,,1.1070376000134274,8.072285e-05,"{""answer"": ""rheumatology""}"
+DeepSeek V4 Pro,ds,s08,specialty,hard,pulmonology,pulmonology,True,,False,,1.2949417000054382,8.03764e-05,"{""answer"": ""pulmonology""}"
+DeepSeek V4 Pro,ds,s09,specialty,hard,endocrinology,endocrinology,True,,False,,1.2469141999899875,8.24551e-05,"{""answer"": ""endocrinology""}"
+DeepSeek V4 Pro,ds,s10,specialty,hard,nephrology,nephrology,True,,False,,1.0602596999960952,0.000248472,"{""answer"": ""nephrology""}"
+DeepSeek V4 Pro,ds,r01,rx_safety,easy,true,true,True,,False,,1.0613719999964815,4.677075e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r02,rx_safety,easy,false,false,True,,False,,1.7260908000171185,4.71172e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,r03,rx_safety,easy,true,true,True,,False,,1.0454822999890894,4.330625e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r04,rx_safety,easy,false,false,True,,False,,1.0448747999907937,4.469205e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,r05,rx_safety,hard,true,true,True,,False,,2.991062899993267,1.7835e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r06,rx_safety,hard,true,true,True,,False,,2.1347133000090253,1.8792e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r07,rx_safety,hard,true,true,True,,False,,2.1344663000199944,1.9604e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r08,rx_safety,hard,true,true,True,,False,,1.1151544000022113,4.677075e-05,"{""answer"": ""true""}"
+DeepSeek V4 Pro,ds,r09,rx_safety,hard,false,false,True,,False,,2.687748800002737,4.91959e-05,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,r10,rx_safety,hard,false,false,True,,False,,1.1058822999766562,0.000143028,"{""answer"": ""false""}"
+DeepSeek V4 Pro,ds,d01,diagnosis,easy,C,C,True,,False,,1.4797474999795668,4.677075e-05,"{""answer"": ""C""}"
+DeepSeek V4 Pro,ds,d02,diagnosis,easy,A,A,True,,False,,1.1052986000140663,0.000143028,"{""answer"": ""A""}"
+DeepSeek V4 Pro,ds,d03,diagnosis,easy,D,D,True,,False,,2.4274520999751985,1.856e-05,"{""answer"": ""D""}"
+DeepSeek V4 Pro,ds,d04,diagnosis,easy,B,B,True,,False,,1.3840494999894872,4.29598e-05,"{""answer"": ""B""}"
+DeepSeek V4 Pro,ds,d05,diagnosis,easy,B,B,True,,False,,1.8452127999917138,1.914e-05,"{""answer"": ""B""}"
+DeepSeek V4 Pro,ds,d06,diagnosis,hard,C,C,True,,False,,1.656847900012508,1.7284e-05,"{""answer"": ""C""}"
+DeepSeek V4 Pro,ds,d07,diagnosis,hard,A,A,True,,False,,1.2298318000102881,4.8503e-05,"{""answer"": ""A""}"
+DeepSeek V4 Pro,ds,d08,diagnosis,hard,D,D,True,,False,,0.9814856999728363,5.023525e-05,"{""answer"": ""D""}"
+DeepSeek V4 Pro,ds,d09,diagnosis,hard,B,B,True,,False,,2.4133876000123564,1.8763e-05,"{""answer"": ""B""}"
+DeepSeek V4 Pro,ds,d10,diagnosis,hard,A,A,True,,False,,1.0092176999896765,0.00024186,"{""answer"": ""A""}"
+DeepSeek V4 Pro +reasoning,ds_think,t01,triage,easy,4,4,True,True,False,,6.462731699983124,0.000103095,ANSWER: 4
+DeepSeek V4 Pro +reasoning,ds_think,t02,triage,easy,1,1,True,True,False,,20.542422700003954,0.000615902,"mal vital signs, mild pain (3/10), and no high-risk features. She ambulates with a limp, suggesting no immediate life- or limb-threatening condition. The anticipated resource is a single X-ray. According to the ESI algorithm, a stable patient requiring one resource is classified as ESI 4.
+
+ANSWER: 1"
+DeepSeek V4 Pro +reasoning,ds_think,t03,triage,easy,0,0,True,True,False,,17.14826549999998,0.000468118,"tion, severe pain, or danger-zone vital signs. He is stable and needs no ED resources (such as labs, imaging, IV medications, or procedures). A prescription refill alone does not count as a resource in the ESI system. Therefore, he meets criteria for ESI 5: non-urgent, needs no resources.
+
+ANSWER: 0"
+DeepSeek V4 Pro +reasoning,ds_think,t04,triage,easy,3,3,True,True,False,,17.784267799986992,0.000487026,"drome. Vital signs are not in the danger zone (HR 98, BP 150/90, SpO2 97%), and no immediate life-saving intervention is required. According to the Emergency Severity Index algorithm, a high-risk situation such as suspected cardiac chest pain with associated symptoms warrants ESI level 2.
+
+ANSWER: 3"
+DeepSeek V4 Pro +reasoning,ds_think,t05,triage,easy,1,1,True,True,False,,6.636993799998891,0.0003554577,"ion with controlled bleeding, normal vital signs, and no high-risk features (no severe pain, no altered mental status, no danger-zone vitals). The only resource needed is suturing. According to ESI guidelines, a single resource (laceration repair) in a stable patient corresponds to ESI 4.
+
+ANSWER: 1"
+DeepSeek V4 Pro +reasoning,ds_think,t06,triage,easy,2,2,True,True,False,,12.844069299986586,0.000391703,"g intervention (ESI 1), nor does she meet high-risk criteria such as severe pain (≥7/10), danger-zone vitals (HR >100, temp >38.3°C), or altered mental status (ESI 2). Her workup will likely require multiple resources (e.g., labs, imaging, IV fluids), making her stable but urgent (ESI 3).
+
+ANSWER: 2"
+DeepSeek V4 Pro +reasoning,ds_think,t07,triage,hard,3,3,True,True,False,,16.67037059998256,0.00320334,"ation such as possible ruptured ectopic pregnancy. Although the patient presents as chatty and smiling with only mild pain, her vital signs fall into the danger zone, making this an emergent, high-risk scenario that does not yet require immediate life-saving intervention. This fits ESI 2.
+
+ANSWER: 3"
+DeepSeek V4 Pro +reasoning,ds_think,t08,triage,hard,3,3,True,True,False,,14.042155800008914,0.0007019077,"or distress as evidenced by the inability to swallow his own saliva. According to the Emergency Severity Index (ESI) algorithm, a patient with a high-risk condition and danger-zone vital signs who does not require immediate life-saving intervention is classified as ESI level 2 (emergent).
+
+ANSWER: 3"
+DeepSeek V4 Pro +reasoning,ds_think,t09,triage,hard,3,3,True,True,False,,9.849392600008287,0.000321494,"mall bruise, the combination of head trauma and anticoagulation places her at high risk for intracranial hemorrhage. According to ESI triage guidelines, a high-risk situation that does not require immediate life-saving intervention but needs urgent evaluation is classified as ESI level 2.
+
+ANSWER: 3"
+DeepSeek V4 Pro +reasoning,ds_think,t10,triage,hard,3,3,True,True,False,,18.472832900006324,0.002099658," 89% on room air), all of which meet the ESI danger-zone vital signs criteria (HR >100, RR >20, SpO2 <92%). Although he is not in immediate need of resuscitation (ESI 1), he is at high risk for deterioration and requires prompt evaluation. Therefore, the appropriate triage level is ESI 2.
+
+ANSWER: 3"
+DeepSeek V4 Pro +reasoning,ds_think,e01,ed_referral,easy,true,true,True,,False,,2.3300525000086054,0.00078643,ANSWER: true
+DeepSeek V4 Pro +reasoning,ds_think,e02,ed_referral,easy,false,false,True,,False,,3.550422400003299,0.000357918,"This patient has symptoms consistent with a mild viral upper respiratory infection. She is afebrile, hydrated, eating normally, and has no respiratory distress or other red-flag features.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,e03,ed_referral,easy,true,true,True,,False,,3.860858600004576,9.9151e-05,ANSWER: true
+DeepSeek V4 Pro +reasoning,ds_think,e04,ed_referral,easy,false,false,True,,False,,6.565057100000558,0.00086446722,"f trauma, swelling, or fever to suggest an acute injury, septic arthritis, or other serious pathology. Red flags requiring emergency evaluation are absent. This presentation is consistent with a degenerative condition like osteoarthritis, which can be managed in an outpatient setting.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,e05,ed_referral,easy,false,false,True,,False,,3.8661682000092696,9.4395e-05,ANSWER: false
+DeepSeek V4 Pro +reasoning,ds_think,e06,ed_referral,easy,true,true,True,,False,,3.384073699999135,0.0001399658,ANSWER: true
+DeepSeek V4 Pro +reasoning,ds_think,e07,ed_referral,hard,true,true,True,,False,,5.1712876000092365,0.00023385375,"g, is a classic presentation for subarachnoid hemorrhage. Even though the pain has decreased, this history mandates emergent evaluation to rule out life-threatening causes. A sentinel bleed can precede a catastrophic rupture. Therefore, emergency department referral today is essential.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,e08,ed_referral,hard,true,true,True,,False,,4.86625500000082,0.000124207,ANSWER: true
+DeepSeek V4 Pro +reasoning,ds_think,e09,ed_referral,hard,false,false,True,,False,,3.289894599991385,0.00103878,"s, weakness), and a normal neurological exam. This is most consistent with a chronic tension-type headache, and there is no evidence of an acute life-threatening or time-critical condition. Emergency department evaluation is not indicated; routine outpatient management is appropriate.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,e10,ed_referral,hard,true,true,True,,False,,5.974603100010427,0.00027889225,"bacterial infections, most urgently meningococcal septicemia. Even though the baby is currently feeding and only mildly fussy, these infections can deteriorate rapidly. Immediate emergency department evaluation is necessary for assessment, possible investigations, and timely treatment.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,s01,specialty,easy,cardiology,cardiology,True,,False,,3.416288499982329,0.0006359,"Chest tightness on exertion that resolves with rest is typical of angina, suggesting possible coronary artery disease. Given his age and hypertension, referral to cardiology is appropriate.
+
+ANSWER: cardiology"
+DeepSeek V4 Pro +reasoning,ds_think,s02,specialty,easy,dermatology,dermatology,True,,False,,4.267313999996986,0.00070818,ANSWER: dermatology
+DeepSeek V4 Pro +reasoning,ds_think,s03,specialty,easy,endocrinology,endocrinology,True,,False,,2.9989056999911554,0.00016179215,ANSWER: endocrinology
+DeepSeek V4 Pro +reasoning,ds_think,s04,specialty,easy,psychiatry,psychiatry,True,,False,,2.5820864000124857,0.00013961935,ANSWER: psychiatry
+DeepSeek V4 Pro +reasoning,ds_think,s05,specialty,easy,gastroenterology,gastroenterology,True,,False,,4.258708300010767,0.00053592,"his patient has chronic heartburn and now describes dysphagia (food sticking when swallowing solids), which suggests an esophageal problem such as a peptic stricture or other esophageal disorder. Evaluation and management of esophageal symptoms falls under gastroenterology.
+
+ANSWER: gastroenterology"
+DeepSeek V4 Pro +reasoning,ds_think,s06,specialty,easy,neurology,neurology,True,,False,,4.496638300013728,0.000350262,ANSWER: neurology
+DeepSeek V4 Pro +reasoning,ds_think,s07,specialty,hard,rheumatology,rheumatology,True,,False,,3.5326630000199657,0.000110693,ANSWER: rheumatology
+DeepSeek V4 Pro +reasoning,ds_think,s08,specialty,hard,pulmonology,pulmonology,True,,False,,9.058208799979184,0.002155404,"ry cough, finger clubbing, and fine ""velcro"" crackles at both lung bases. Normal echocardiogram and BNP effectively rule out heart failure. These findings are classic for interstitial lung disease (e.g., idiopathic pulmonary fibrosis), which falls under the scope of pulmonology.
+
+ANSWER: pulmonology"
+DeepSeek V4 Pro +reasoning,ds_think,s09,specialty,hard,endocrinology,endocrinology,True,,False,,2.7865840999875218,0.00017703595,ANSWER: endocrinology
+DeepSeek V4 Pro +reasoning,ds_think,s10,specialty,hard,nephrology,nephrology,True,,False,,4.98406819999218,0.000153004,ANSWER: nephrology
+DeepSeek V4 Pro +reasoning,ds_think,r01,rx_safety,easy,true,true,True,,False,,2.849581099988427,0.000131651,ANSWER: true
+DeepSeek V4 Pro +reasoning,ds_think,r02,rx_safety,easy,false,false,True,,False,,7.993597499997122,0.00040153555,"dosing for strep throat in adults is often 500 mg twice daily or 1 g once daily, a dose of 500 mg three times daily (1.5 g/day) is well within the safe and commonly used range for amoxicillin. It is not an overdose and does not pose a danger. Therefore, the prescription is acceptable.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,r03,rx_safety,easy,true,true,True,,False,,4.217076900007669,0.000321552,"Isotretinoin is a known teratogen and is contraindicated during pregnancy. Use at 10 weeks gestation poses a high risk of severe fetal harm.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,r04,rx_safety,easy,false,false,True,,False,,3.8144949999987148,0.0001863901,"Amlodipine 5 mg once daily is a standard starting dose for hypertension in adults. There are no contraindications for a 45-year-old woman without other conditions or medications, and no known allergy or interaction is present. The prescription is acceptable as written.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,r05,rx_safety,hard,true,true,True,,False,,8.579717199987499,0.000264103,"pathy and rhabdomyolysis because clarithromycin is a strong CYP3A4 inhibitor, and simvastatin is metabolized by this enzyme. Co-administration can lead to markedly elevated simvastatin levels. The prescription does not include temporary discontinuation of simvastatin, making it unsafe.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,r06,rx_safety,hard,true,true,True,,False,,10.156856999994488,0.000305718,"se, leading to additive antifolate effects that can cause severe bone marrow suppression, megaloblastic anemia, and pancytopenia, even with low-dose weekly methotrexate. This interaction is considered a contraindication in many guidelines, and safer alternatives for UTI should be used.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,r07,rx_safety,hard,true,true,True,,False,,4.314750000019558,0.000221728,"cated in patients with an eGFR below 30 mL/min/1.73 m² due to the increased risk of lactic acidosis. This patient has an eGFR of 22, placing him well below the safety threshold. Continuing metformin at a standard dose of 1000 mg twice daily is unsafe and constitutes a contraindication.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,r08,rx_safety,hard,true,true,True,,False,,6.080131800001254,0.000198679," reuptake inhibitor) is contraindicated due to a high risk of serotonin syndrome, a potentially life-threatening condition. A washout period of at least 14 days is required when switching from an MAOI to an SSRI. Adding sertraline while the patient is still taking phenelzine is unsafe.
+
+ANSWER: true"
+DeepSeek V4 Pro +reasoning,ds_think,r09,rx_safety,hard,false,false,True,,False,,24.817340799985686,0.004443039,"en limited to 3 g/day. Paracetamol does not have a clinically significant interaction with apixaban, and it is often the analgesic of choice for patients on anticoagulants to avoid NSAID-related bleeding risks. There is no contraindication, allergy, or dose error evident in this case.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,r10,rx_safety,hard,false,false,True,,False,,10.484095499996329,0.001003893,"GFR 55 mL/min/1.73m². This is above the threshold where metformin requires discontinuation (eGFR < 30), and the dose of 500 mg twice daily is within standard dosing and appropriate for stable CKD stage 3a with monitoring. No allergy, dangerous interaction, or wrong dose is identified.
+
+ANSWER: false"
+DeepSeek V4 Pro +reasoning,ds_think,d01,diagnosis,easy,C,C,True,,False,,8.52266149999923,0.000283968,"ns do not fit: asthma exacerbation typically involves wheezing and dyspnea without consolidation; pulmonary embolism may cause pleuritic pain but not productive cough with rusty sputum and lobar consolidation; pneumothorax would show air in the pleural space on imaging, not consolidation.
+
+ANSWER: C"
+DeepSeek V4 Pro +reasoning,ds_think,d02,diagnosis,easy,A,A,True,,False,,6.884206499991706,0.0003457571,"lank pain. Renal colic (C) typically presents with severe, colicky flank pain, not isolated dysuria. Chlamydia (D) can cause dysuria but is not associated with a positive nitrite test, as *Chlamydia* does not produce nitrite. Therefore, the most likely diagnosis is uncomplicated cystitis.
+
+ANSWER: A"
+DeepSeek V4 Pro +reasoning,ds_think,d03,diagnosis,easy,D,D,True,,False,,6.501141399989137,0.000205871,ANSWER: D
+DeepSeek V4 Pro +reasoning,ds_think,d04,diagnosis,easy,B,B,True,,False,,3.6508157000062056,0.000536,"The presentation of sudden, severe pain, redness, and swelling in the first metatarsophalangeal joint (big toe) after alcohol and seafood intake is classic for gout. Beer and seafood are rich in purines, which can trigger a gout flare.
+
+ANSWER: B"
+DeepSeek V4 Pro +reasoning,ds_think,d05,diagnosis,easy,B,B,True,,False,,6.438646299997345,0.00032323785,"s age (6 years) also falls within the typical peak range for Group A Streptococcus pharyngitis (5–15 years). Viral common cold typically includes cough and rhinorrhea, epiglottitis would present with stridor and respiratory distress, and allergic rhinitis lacks fever and purulent exudate.
+
+ANSWER: B"
+DeepSeek V4 Pro +reasoning,ds_think,d06,diagnosis,hard,C,C,True,,False,,8.441924699989613,0.000284084,"essive disorder, the physical examination findings strongly point toward a metabolic/endocrine etiology. Iron deficiency anemia would not explain the weight gain, constipation, or reflex changes. Chronic fatigue syndrome is a diagnosis of exclusion and lacks these specific physical signs.
+
+ANSWER: C"
+DeepSeek V4 Pro +reasoning,ds_think,d07,diagnosis,hard,A,A,True,,False,,8.519919999991544,0.00153642,"tion, and gait ataxia. Acute alcohol intoxication is unlikely with a low alcohol level. Hepatic encephalopathy typically features asterixis and altered consciousness without focal oculomotor signs. Cerebellar stroke would usually present with unilateral signs and less prominent confusion.
+
+ANSWER: A"
+DeepSeek V4 Pro +reasoning,ds_think,d08,diagnosis,hard,D,D,True,,False,,7.994761800015112,0.000259637,"ask typical cardiac pain. The normal serum lipase rules out acute pancreatitis. The ECG finding of ST elevation in leads II, III, and aVF is classic for an acute inferior wall ST-elevation myocardial infarction (STEMI). Peptic ulcer disease and biliary colic do not cause such ECG changes.
+
+ANSWER: D"
+DeepSeek V4 Pro +reasoning,ds_think,d09,diagnosis,hard,B,B,True,,False,,6.865258500009077,0.0003471429,"ured ectopic pregnancy. Appendicitis is not associated with a positive pregnancy test or vaginal spotting. Ovarian torsion may cause pain and free fluid but does not typically present with a positive hCG. Threatened miscarriage usually demonstrates an intrauterine pregnancy on ultrasound.
+
+ANSWER: B"
+DeepSeek V4 Pro +reasoning,ds_think,d10,diagnosis,hard,A,A,True,,False,,3.5718628999893554,0.0001753037,ANSWER: A

@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "key": "jev",
+      "name": "Jev",
+      "type": "decision",
+      "url": "https://api.typesafe.ai/v1/systemone",
+      "model": "jev-latest",
+      "api_key_env": "JEV_API_KEY",
+      "price_in": 0,
+      "price_out": 0
+    },
+    {
+      "key": "llm",
+      "name": "LLM",
+      "type": "chat",
+      "base_url": "https://YOUR-API-ENDPOINT/v1",
+      "model": "YOUR-MODEL",
+      "api_key_env": "LLM_API_KEY",
+      "think": false,
+      "max_tokens": 200
+    },
+    {
+      "key": "llm_think",
+      "name": "LLM +reasoning",
+      "type": "chat",
+      "base_url": "https://YOUR-API-ENDPOINT/v1",
+      "model": "YOUR-MODEL",
+      "api_key_env": "LLM_API_KEY",
+      "think": true,
+      "max_tokens": 8000
+    }
+  ]
+}

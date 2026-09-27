@@ -1,0 +1,412 @@
+[
+  {
+    "id": "t01",
+    "task": "triage",
+    "level": "easy",
+    "gold": 1,
+    "text": "67-year-old man found unresponsive at home. Agonal respirations, SpO2 78% on room air, weak carotid pulse."
+  },
+  {
+    "id": "t02",
+    "task": "triage",
+    "level": "easy",
+    "gold": 4,
+    "text": "24-year-old woman twisted her ankle playing badminton 2 hours ago. Walks with a limp, mild swelling. HR 78, BP 118/72, pain 3/10. Wants an X-ray."
+  },
+  {
+    "id": "t03",
+    "task": "triage",
+    "level": "easy",
+    "gold": 5,
+    "text": "30-year-old man ran out of his lisinopril and wants a repeat prescription. No symptoms. BP 132/84, HR 70."
+  },
+  {
+    "id": "t04",
+    "task": "triage",
+    "level": "easy",
+    "gold": 2,
+    "text": "55-year-old man with 30 minutes of central chest pressure, sweating, nauseated. HR 98, BP 150/90, SpO2 97%."
+  },
+  {
+    "id": "t05",
+    "task": "triage",
+    "level": "easy",
+    "gold": 4,
+    "text": "19-year-old woman cut her forearm on glass. 3 cm clean laceration, bleeding controlled with pressure, needs sutures. Vitals normal."
+  },
+  {
+    "id": "t06",
+    "task": "triage",
+    "level": "easy",
+    "gold": 3,
+    "text": "45-year-old woman with 12 hours of right lower quadrant abdominal pain and nausea. Temp 38.2, HR 96, BP 124/80. Pain 6/10."
+  },
+  {
+    "id": "t07",
+    "task": "triage",
+    "level": "hard",
+    "gold": 2,
+    "text": "26-year-old woman, chatty and smiling, says she has \"a bit of period-type pain\" low in the abdomen and wants painkillers. Mentions her period is about 3 weeks late. HR 118, BP 96/60."
+  },
+  {
+    "id": "t08",
+    "task": "triage",
+    "level": "hard",
+    "gold": 2,
+    "text": "34-year-old man with a sore throat for 3 days, asking for antibiotics. Talks in a muffled voice, keeps spitting into a tissue because swallowing his saliva hurts too much. Temp 38.9, HR 104, SpO2 98%."
+  },
+  {
+    "id": "t09",
+    "task": "triage",
+    "level": "hard",
+    "gold": 2,
+    "text": "80-year-old woman tripped at home and \"just bumped her head\", small bruise on forehead, GCS 15, normal vitals. Daughter mentions she takes warfarin for atrial fibrillation."
+  },
+  {
+    "id": "t10",
+    "task": "triage",
+    "level": "hard",
+    "gold": 2,
+    "text": "40-year-old man says he only needs a sick note for work after \"a bad cold\" for 4 days. Speaks in short sentences. Temp 38.6, HR 112, RR 28, SpO2 89% on room air."
+  },
+  {
+    "id": "e01",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "true",
+    "text": "72-year-old man, sudden right arm weakness, right facial droop and slurred speech that began 40 minutes ago."
+  },
+  {
+    "id": "e02",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "false",
+    "text": "28-year-old woman with 3 days of runny nose and mild dry cough. Afebrile, eating and drinking normally, no breathlessness."
+  },
+  {
+    "id": "e03",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "true",
+    "text": "35-year-old man ate a satay sauce 15 minutes ago, now has hives, swollen lips and is wheezing. Known peanut allergy."
+  },
+  {
+    "id": "e04",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "false",
+    "text": "50-year-old man with 6 months of right knee pain on stairs, worse after long walks. No injury, no swelling, no fever."
+  },
+  {
+    "id": "e05",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "false",
+    "text": "16-year-old girl whose facial acne has worsened over the past year. Otherwise well."
+  },
+  {
+    "id": "e06",
+    "task": "ed_referral",
+    "level": "easy",
+    "gold": "true",
+    "text": "60-year-old man vomited a cup of bright red blood this morning and feels dizzy when standing."
+  },
+  {
+    "id": "e07",
+    "task": "ed_referral",
+    "level": "hard",
+    "gold": "true",
+    "text": "45-year-old woman had a headache start within seconds while lifting weights 6 hours ago, \"the worst of my life\". It has eased to a dull ache and she feels mostly fine now, just wants advice on painkillers."
+  },
+  {
+    "id": "e08",
+    "task": "ed_referral",
+    "level": "hard",
+    "gold": "true",
+    "text": "29-year-old woman, 2 weeks after a caesarean section, asking about compression socks because her left calf is swollen and sore. Mentions she gets a bit short of breath climbing stairs since yesterday."
+  },
+  {
+    "id": "e09",
+    "task": "ed_referral",
+    "level": "hard",
+    "gold": "false",
+    "text": "38-year-old man, very anxious he has a brain tumour. Band-like pressure headache across both temples, worse with work stress, same pattern for 5 years. No vomiting, no visual change, no weakness, normal neurological exam."
+  },
+  {
+    "id": "e10",
+    "task": "ed_referral",
+    "level": "hard",
+    "gold": "true",
+    "text": "8-month-old baby with fever 38.5 since this morning, a bit fussy but feeding. Mother noticed a few small purple spots on the legs that do not fade when pressed with a glass."
+  },
+  {
+    "id": "s01",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "cardiology",
+    "text": "62-year-old man with hypertension, chest tightness on walking uphill that settles with rest within 5 minutes."
+  },
+  {
+    "id": "s02",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "dermatology",
+    "text": "35-year-old with well-demarcated itchy silvery scaly plaques on elbows and knees for a year."
+  },
+  {
+    "id": "s03",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "endocrinology",
+    "text": "48-year-old woman, thirst and passing urine often, HbA1c 9.1% despite metformin."
+  },
+  {
+    "id": "s04",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "psychiatry",
+    "text": "27-year-old with 2 months of low mood, loss of interest in everything, early waking and thoughts that life is not worth living."
+  },
+  {
+    "id": "s05",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "gastroenterology",
+    "text": "58-year-old man with years of heartburn, now food sticking in his chest when swallowing solids."
+  },
+  {
+    "id": "s06",
+    "task": "specialty",
+    "level": "easy",
+    "gold": "neurology",
+    "text": "30-year-old woman with recurrent one-sided throbbing headaches preceded by zig-zag lines in her vision."
+  },
+  {
+    "id": "s07",
+    "task": "specialty",
+    "level": "hard",
+    "gold": "rheumatology",
+    "text": "32-year-old woman worried about a red rash across her cheeks after sun exposure. Also has painful swollen finger joints on both hands with an hour of morning stiffness, mouth ulcers, and trace protein on urine dipstick."
+  },
+  {
+    "id": "s08",
+    "task": "specialty",
+    "level": "hard",
+    "gold": "pulmonology",
+    "text": "64-year-old man, breathless on exertion for a year, dry cough, finger clubbing, fine \"velcro\" crackles at both lung bases. Echocardiogram and BNP are normal."
+  },
+  {
+    "id": "s09",
+    "task": "specialty",
+    "level": "hard",
+    "gold": "endocrinology",
+    "text": "28-year-old woman referred for palpitations and a fast heart rate of 110. Also lost 5 kg without trying, hands tremble, always feels hot, and has a smooth swelling at the front of her neck. ECG sinus tachycardia only."
+  },
+  {
+    "id": "s10",
+    "task": "specialty",
+    "level": "hard",
+    "gold": "nephrology",
+    "text": "55-year-old man with ankle swelling and tiredness. Creatinine rose from 105 to 210 umol/L over 6 months, eGFR 28, urine frothy with 3+ protein. Heart examination and echo unremarkable."
+  },
+  {
+    "id": "r01",
+    "task": "rx_safety",
+    "level": "easy",
+    "gold": "true",
+    "text": "Patient: 40-year-old woman, allergy list: penicillin (anaphylaxis). Prescription: amoxicillin 500 mg three times daily for 7 days for sinusitis."
+  },
+  {
+    "id": "r02",
+    "task": "rx_safety",
+    "level": "easy",
+    "gold": "false",
+    "text": "Patient: healthy 30-year-old man, no allergies, no regular medicines, confirmed strep throat. Prescription: amoxicillin 500 mg three times daily for 10 days."
+  },
+  {
+    "id": "r03",
+    "task": "rx_safety",
+    "level": "easy",
+    "gold": "true",
+    "text": "Patient: 28-year-old woman, 10 weeks pregnant. Prescription: isotretinoin 20 mg daily for acne."
+  },
+  {
+    "id": "r04",
+    "task": "rx_safety",
+    "level": "easy",
+    "gold": "false",
+    "text": "Patient: 45-year-old woman with newly diagnosed hypertension, no other conditions or medicines. Prescription: amlodipine 5 mg once daily."
+  },
+  {
+    "id": "r05",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "true",
+    "text": "Patient: 70-year-old man with a chest infection. Regular medicines: simvastatin 40 mg nightly, aspirin 75 mg. Prescription: clarithromycin 500 mg twice daily for 7 days."
+  },
+  {
+    "id": "r06",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "true",
+    "text": "Patient: 65-year-old woman with a urinary tract infection. Regular medicines: methotrexate 15 mg once weekly for rheumatoid arthritis, folic acid. Prescription: trimethoprim-sulfamethoxazole 960 mg twice daily for 3 days."
+  },
+  {
+    "id": "r07",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "true",
+    "text": "Patient: 58-year-old man with type 2 diabetes, latest eGFR 22 mL/min/1.73m2. Prescription: metformin 1000 mg twice daily."
+  },
+  {
+    "id": "r08",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "true",
+    "text": "Patient: 44-year-old woman with treatment-resistant depression, currently on phenelzine 15 mg three times daily. Prescription: add sertraline 50 mg daily."
+  },
+  {
+    "id": "r09",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "false",
+    "text": "Patient: 72-year-old woman, 64 kg, atrial fibrillation on apixaban 5 mg twice daily, normal liver function, knee osteoarthritis. Prescription: paracetamol 1 g three times daily."
+  },
+  {
+    "id": "r10",
+    "task": "rx_safety",
+    "level": "hard",
+    "gold": "false",
+    "text": "Patient: 50-year-old man with type 2 diabetes, eGFR 55 mL/min/1.73m2, stable. Prescription: metformin 500 mg twice daily."
+  },
+  {
+    "id": "d01",
+    "task": "diagnosis",
+    "level": "easy",
+    "gold": "C",
+    "text": "52-year-old man, 3 days of fever, productive cough of rusty sputum, right-sided pleuritic pain. Chest X-ray: right lower lobe consolidation.",
+    "options": {
+      "A": "Asthma exacerbation",
+      "B": "Pulmonary embolism",
+      "C": "Community-acquired pneumonia",
+      "D": "Pneumothorax"
+    }
+  },
+  {
+    "id": "d02",
+    "task": "diagnosis",
+    "level": "easy",
+    "gold": "A",
+    "text": "25-year-old woman with 2 days of burning on urination and frequency. No fever, no flank pain. Urine dipstick nitrite and leukocytes positive.",
+    "options": {
+      "A": "Uncomplicated cystitis",
+      "B": "Pyelonephritis",
+      "C": "Renal colic",
+      "D": "Chlamydia"
+    }
+  },
+  {
+    "id": "d03",
+    "task": "diagnosis",
+    "level": "easy",
+    "gold": "D",
+    "text": "Tall thin 20-year-old man, sudden sharp right chest pain and breathlessness at rest. Reduced breath sounds and hyper-resonance on the right.",
+    "options": {
+      "A": "Pneumonia",
+      "B": "Pericarditis",
+      "C": "Costochondritis",
+      "D": "Spontaneous pneumothorax"
+    }
+  },
+  {
+    "id": "d04",
+    "task": "diagnosis",
+    "level": "easy",
+    "gold": "B",
+    "text": "60-year-old man woke with an exquisitely painful, red, swollen big toe joint after a night of beer and seafood.",
+    "options": {
+      "A": "Cellulitis",
+      "B": "Gout",
+      "C": "Osteoarthritis",
+      "D": "Stress fracture"
+    }
+  },
+  {
+    "id": "d05",
+    "task": "diagnosis",
+    "level": "easy",
+    "gold": "B",
+    "text": "6-year-old with fever 38.8, sore throat, tonsillar exudate, tender anterior neck nodes, no cough.",
+    "options": {
+      "A": "Viral common cold",
+      "B": "Streptococcal pharyngitis",
+      "C": "Epiglottitis",
+      "D": "Allergic rhinitis"
+    }
+  },
+  {
+    "id": "d06",
+    "task": "diagnosis",
+    "level": "hard",
+    "gold": "C",
+    "text": "32-year-old woman says she is depressed: low mood, tired all the time, gained 6 kg, constipated. On examination dry skin, puffy face, cold hands, slow-relaxing ankle reflexes.",
+    "options": {
+      "A": "Major depressive disorder",
+      "B": "Iron deficiency anaemia",
+      "C": "Hypothyroidism",
+      "D": "Chronic fatigue syndrome"
+    }
+  },
+  {
+    "id": "d07",
+    "task": "diagnosis",
+    "level": "hard",
+    "gold": "A",
+    "text": "55-year-old man with heavy alcohol use brought in confused and unsteady. Alcohol level is low. Horizontal nystagmus and bilateral lateral gaze weakness, wide-based gait.",
+    "options": {
+      "A": "Wernicke encephalopathy",
+      "B": "Acute alcohol intoxication",
+      "C": "Hepatic encephalopathy",
+      "D": "Cerebellar stroke"
+    }
+  },
+  {
+    "id": "d08",
+    "task": "diagnosis",
+    "level": "hard",
+    "gold": "D",
+    "text": "62-year-old man with diabetes, epigastric discomfort and nausea since resting after lunch, thinks it is indigestion. Serum lipase normal. ECG: ST elevation in leads II, III and aVF.",
+    "options": {
+      "A": "Acute pancreatitis",
+      "B": "Peptic ulcer disease",
+      "C": "Biliary colic",
+      "D": "Inferior myocardial infarction"
+    }
+  },
+  {
+    "id": "d09",
+    "task": "diagnosis",
+    "level": "hard",
+    "gold": "B",
+    "text": "28-year-old woman with right lower abdominal pain and a little vaginal spotting. Urine hCG positive. Transvaginal ultrasound: no intrauterine pregnancy, free fluid in the pouch of Douglas.",
+    "options": {
+      "A": "Appendicitis",
+      "B": "Ectopic pregnancy",
+      "C": "Ovarian torsion",
+      "D": "Threatened miscarriage"
+    }
+  },
+  {
+    "id": "d10",
+    "task": "diagnosis",
+    "level": "hard",
+    "gold": "A",
+    "text": "75-year-old woman with a new headache for 3 weeks, pain in the jaw when chewing, tender scalp when brushing her hair. ESR 90 mm/h.",
+    "options": {
+      "A": "Giant cell arteritis",
+      "B": "Migraine",
+      "C": "Trigeminal neuralgia",
+      "D": "Temporomandibular joint disorder"
+    }
+  }
+]
