@@ -40,6 +40,11 @@ Models tested on 2026-09-27:
 
 ### Hard set (52 complex cases)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/hard_overview_dark.svg">
+  <img alt="Hard set: accuracy, median latency and cost per 1000 calls for each model" src="docs/charts/hard_overview_light.svg">
+</picture>
+
 | Model | Accuracy | p50 latency | p95 | Avg output tokens | Cost / 1000 calls |
 |---|---|---|---|---|---|
 | DeepSeek V4 Pro + reasoning | **98%** | 8.28s | 23.38s | 542 (449 reasoning) | $0.645 |
@@ -50,6 +55,11 @@ Models tested on 2026-09-27:
 
 Accuracy by task:
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/hard_tasks_dark.svg">
+  <img alt="Hard set accuracy by task for each model" src="docs/charts/hard_tasks_light.svg">
+</picture>
+
 | Model | triage | ed_referral | specialty | rx_safety | diagnosis | management |
 |---|---|---|---|---|---|---|
 | Jev 1.13 | 62% | 88% | 100% | 100% | 90% | 100% |
@@ -57,6 +67,11 @@ Accuracy by task:
 | Qwen3.8-27B + think | 50% | 100% | 100% | 92% | 100% | 100% |
 | DeepSeek V4 Pro | 88% | 88% | 100% | 75% | 100% | 100% |
 | DeepSeek V4 Pro + reasoning | 88% | 100% | 100% | 100% | 100% | 100% |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/hard_cases_dark.svg">
+  <img alt="Every hard-set case for every model, wrong answers in red" src="docs/charts/hard_cases_light.svg">
+</picture>
 
 Jev as a gate (keep confident answers, escalate the rest to a reasoning model):
 
@@ -66,7 +81,17 @@ Jev as a gate (keep confident answers, escalate the rest to a reasoning model):
 | >= 0.8 | 73% | 97% | 14 |
 | >= 0.9 | 58% | 100% | 22 |
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/hard_gate_dark.svg">
+  <img alt="Jev accuracy on kept answers and coverage at each confidence threshold, hard set" src="docs/charts/hard_gate_light.svg">
+</picture>
+
 ### Basic set (50 cases)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/basic_overview_dark.svg">
+  <img alt="Basic set: accuracy, median latency and cost per 1000 calls for each model" src="docs/charts/basic_overview_light.svg">
+</picture>
 
 | Model | Accuracy | p50 latency | Cost / 1000 calls |
 |---|---|---|---|
@@ -77,6 +102,11 @@ Jev as a gate (keep confident answers, escalate the rest to a reasoning model):
 | DeepSeek V4 Pro + reasoning | 100% | 6.26s | $0.593 |
 
 On the basic set, Jev at confidence >= 0.8 covered 90% of cases at 100% accuracy.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/basic_gate_dark.svg">
+  <img alt="Jev accuracy on kept answers and coverage at each confidence threshold, basic set" src="docs/charts/basic_gate_light.svg">
+</picture>
 
 Full tables and every model output: `results/`.
 
